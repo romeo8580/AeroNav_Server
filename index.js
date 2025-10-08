@@ -12,9 +12,9 @@ app.use(express.json());
 app.use("/api/example", exampleRouter);
 
 app.get("/", (req, res) => {
-    res.send("Hello, AeroNav Server is running!");
+  res.send("Hello, AeroNav Server is running!");
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`? Server running on port ${PORT}`);
 });
